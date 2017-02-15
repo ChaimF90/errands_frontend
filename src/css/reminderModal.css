@@ -1,0 +1,351 @@
+.reminder-modal-container {
+	position: absolute;
+	z-index: 1;
+	background-color: rgb(36, 95, 117);
+	height: 75%;
+	width: 50%;
+	left: 300px;
+	top: 30px;
+	border: 3px solid;
+	border-color: rgba(0,0,0,0.4);
+	border-radius: 5px;
+}
+
+.custom-modal-header {
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.dismiss-modal {
+	color: rgba(225,225,225,0.7);
+	cursor: pointer;
+	float: right;
+}
+
+.modal-body-custom {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.reminder-input {
+	text-align: center;
+	color: white;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	height: 35px;
+	border-radius: 5px;
+	width: 90%;
+	border-color: rgba(225,225,225,0.7);
+	background-color: transparent;
+}
+
+.reminder-textarea {
+	color: white;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 90%;
+	height: 65px;
+	background-color: transparent;
+	border-color: rgba(225,225,225,0.7);
+	border-radius: 5px;
+}
+
+.freq-select-closed {
+	height: 20px;
+	list-style-type: none;
+	width: 100%;
+	padding-left: 0;
+}
+
+.freq-select-open {
+	background-color: rgba(225,225,225, 0.9);
+	list-style-type: none;
+	width: 100%;
+	padding-left: 0;
+	margin: auto;
+	border:1px solid;
+	border-radius: 10px;
+	border-color: transparent;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.freq-select-container {
+	margin: auto;
+	height: 30px;
+	width: 50%;
+	background-color:transparent;
+	border:1px solid;
+	border-color: rgba(225,225,225,0.7);
+	border-radius: 5px;
+}
+
+.arrow-custom {
+	cursor: pointer;
+	float: right;
+	display: inline-block;
+	color: white;
+	font-size: 25px;
+	margin-right: 10px;
+}
+
+.select-header {
+	display: inline-block;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 1px;
+}
+
+.select-header-open {
+	display: inline-block;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: rgb(36, 95, 117);
+	letter-spacing: 1px;
+}
+
+.freq-option {
+	background-color: rgb(236, 239, 234);
+	width: 75%;
+	height: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	border:1px solid;
+	border-color: transparent;
+	border-radius: 5px;
+	color: rgb(36, 95, 117);
+}
+
+.freq-option:hover {
+	background-color: rgb(236, 239, 234);
+	width: 75%;
+	height: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	border:1px solid;
+	border-color: transparent;
+	border-radius: 5px;
+	cursor: pointer;
+	color: rgb(236, 239, 234);
+	background-color: rgb(36, 95, 117);
+}
+
+.save-reminder-btn {
+	position: absolute;
+	top: 300px;
+	left: 150px;
+	font-size: 25px;
+	background-color: rgb(236, 239, 234);
+	color: rgb(36, 95, 117);
+	border-color: transparent;
+	border-radius: 5px;
+	text-transform: uppercase;
+	width: 20%;
+	z-index: -2;
+}
+
+.cancel-reminder {
+	position: absolute;
+	top: 300px;
+	left: 300px;
+	font-size: 20px;
+	background-color: transparent;
+	color: rgb(236, 239, 234);
+	border-color: transparent;
+	border-radius: 5px;
+	text-transform: uppercase;
+	width: 20%;
+	z-index: -2;
+}
+
+.date-selection {
+	margin-left: 30px;
+	top: 180px;
+	position: absolute;
+	height: auto;
+	width: 90%;
+	z-index: -1;
+}
+
+.specific-date-closed{
+	border:1px solid;
+	border-color: rgba(225,225,225,0.7);
+	background-color: transparent;
+	width: 40%;
+	display: inline-block;
+	margin-right: 20px;
+	height: 30px;
+	border-radius: 5px;
+	padding-left: 0;
+	position: absolute;
+	top: 0;
+}
+
+.specific-date-open {
+	position: absolute;
+	top: 0;
+	border:1px solid;
+	border-color: rgba(225,225,225,0.7);
+	background-color: rgba(225,225,225,0.7);
+	width: 40%;
+	display: inline-block;
+	margin-right: 20px;
+	height: 175px;
+	overflow: auto;
+	border-radius: 5px;
+	padding-left: 0;
+	list-style-type: none;
+	padding-bottom: 15px;
+}
+
+.specific-day-closed{
+	border:1px solid;
+	border-color: rgba(225,225,225,0.7);
+	background-color: transparent;
+	width: 40%;
+	display: inline-block;
+	margin-right: 20px;
+	height: 30px;
+	border-radius: 5px;
+	padding-left: 0;
+	position: absolute;
+	left: 40px;
+	top: 0;
+}
+
+.specific-day-open{
+	position: absolute;
+	left: 40px;
+	top: 0;
+	border:1px solid;
+	border-color: rgba(225,225,225,0.7);
+	background-color: rgba(225,225,225,0.7);
+	width: 40%;
+	display: inline-block;
+	margin-right: 20px;
+	height: 175px;
+	overflow: auto;
+	border-radius: 5px;
+	padding-left: 0;
+	list-style-type: none;
+	padding-bottom: 15px;
+}
+
+.date-selection-disabled{
+	border:1px solid;
+	border-color: grey;
+	background-color: transparent;
+	width: 40%;
+	display: inline-block;
+	margin-right: 20px;
+	height: 30px;
+	border-radius: 5px;
+	padding-left: 0;
+	position: absolute;
+	top: 0;
+}
+
+.day-selection-disabled{
+	border:1px solid;
+	border-color: grey;
+	background-color: transparent;
+	width: 40%;
+	display: inline-block;
+	margin-right: 20px;
+	height: 30px;
+	border-radius: 5px;
+	padding-left: 0;
+	position: absolute;
+	left: 40px;
+	top: 0;
+}
+
+.disabled-header{
+	display: inline-block;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: grey;
+	letter-spacing: 1px;
+}
+
+.disabled-arrow {
+	cursor: not-allowed;
+	float: right;
+	display: inline-block;
+	color: grey;
+	font-size: 17px;
+	margin-right: 10px;
+}
+
+.day-header {
+	color: white;
+	font-size: 13px;
+	width: auto;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	height: 13px;
+	margin-right: 70px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.date-header {
+	color: white;
+	font-size: 13px;
+	width: auto;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	height: 13px;
+	margin-right: 70px;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.date-selection-arrow {
+	cursor: pointer;
+	float: right;
+	display: inline-block;
+	color: white;
+	font-size: 17px;
+	margin-right: 10px;
+}
+
+.day-option {
+	background-color: rgb(236, 239, 234);
+	color: rgb(36, 95, 117);
+	margin-top: 10px;
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	border:1px solid;
+	border-color: transparent;
+	border-radius: 5px;
+}
+
+.day-option:hover{
+	background-color:rgb(36, 95, 117) ;
+	color: rgb(236, 239, 234);
+	margin-top: 10px;
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	border:1px solid;
+	border-color: transparent;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+::-webkit-input-placeholder { 
+	text-align: center;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+
+

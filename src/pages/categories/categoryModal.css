@@ -1,0 +1,29 @@
+.cat-modal {
+	position: absolute;
+	z-index: 1;
+	width: 25%;
+	height: 20vh;
+	background-color: #FAF0E6;
+	border: 1px solid;
+	border-color: #FFA07A;
+	margin-left: 600px;
+	margin-top: 200px;
+}
+
+.cat-modal-body {
+	height: 1vh;
+	margin-top: 20px;
+}
+
+.cat-modal-header {
+	margin-top: 70px;
+	height: 1vh;
+	text-align: center;
+}
+
+.modal-span {
+	color:  #FFA07A;
+	letter-spacing: 1px;
+	font-size: 15px;
+	text-transform: uppercase;
+}

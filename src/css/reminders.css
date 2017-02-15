@@ -1,0 +1,41 @@
+.reminder-container {
+	position: absolute;
+	margin-top: 40px;
+	background-color: rgba(255,255,255, 0.6);
+	min-height: 500px;
+	width: 100%;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.no-reminders {
+	color: rgb(36, 95, 117);
+	font-size: 30px;
+}
+
+.no-reminders-container {
+	text-align: center;;
+	position: relative;
+	top: 100px;
+}
+
+.no-reminders-add-btn {
+	font-size: 35px;
+	margin-top: 20px;
+	background-color: rgb(36, 95, 117);
+	color: rgb(240,255,240);
+	border-radius: 10px;
+	border-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+

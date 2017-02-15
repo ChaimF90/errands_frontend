@@ -1,0 +1,23 @@
+.category-list {
+	width: 50%;
+	margin-top: 40px;
+	position: absolute;
+	margin-left: 400px;
+}
+
+.cat {
+	text-align: center;
+	margin-bottom: 5px;
+	border: 1px solid;
+	border-color: #FFA07A;
+	background-color: #FAF0E6;
+	color: #FFA07A;
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.delete-cat {
+	float: right;
+	cursor: pointer;
+}
